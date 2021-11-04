@@ -1,0 +1,44 @@
+@import url('../header/btn-header.css');
+
+header {
+  width: 100%;
+  height: 75vh;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1478480154178-88540b2be3b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1923&q=80');
+  background-size: cover;
+  background-position-y: 45%;
+  -webkit-box-shadow: inset 0px -26px 18px 0px rgba(0,0,0,0.37);
+  box-shadow: inset 0px -26px 18px 0px rgba(0,0,0,0.37);
+  display: flex;
+  padding: 100px 120px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  color: whitesmoke;
+  font-family: 'Noto Serif Display', serif;
+  font-size: 70px;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.73);
+}
+
+header h1 span {
+  margin-left: -20px;
+  cursor: pointer;
+}
+
+header h1 span:hover {
+  margin-left: -20px;
+  color: #f04033;
+  cursor: pointer;
+}
+
+header h2 {
+  color: whitesmoke;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-top: 45px;
+  margin-left: 25px;
+  opacity: 0.8;
+}
